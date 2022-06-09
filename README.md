@@ -21,5 +21,9 @@ source ~/.bashrc && echo $PATH
 which g++ gcc clang clang++
 ```
 
+### Configure CMake to use
 
+```
+-DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache
+```
 
